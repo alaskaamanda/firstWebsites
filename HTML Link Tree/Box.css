@@ -1,0 +1,43 @@
+body {
+    background: rgb(255,111,89);
+background: radial-gradient(circle,
+rgba(255,111,89,1) 0%,
+rgba(247,188,179,1) 68%);
+height: 100%
+}
+.profileImage {
+    border-radius: 70%;
+    box-shadow: 5px 5px 10px 2px rgb(189, 71, 53);
+}
+.profileImageBubble{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    height: 300px;
+}
+.name{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(255, 215, 208);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+a {
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    border: 3px rgb(189, 71, 53);
+    background-color: rgb(250, 216, 211);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2rem;
+    color:rgb(209, 88, 69);
+    margin:20px;
+    padding:20px;
+}
+a:hover {
+transform: scale(1.02);
+box-shadow: 5px 5px 10px 2px rgb(189, 71, 53);
+}
